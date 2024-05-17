@@ -1,0 +1,26 @@
+.movie-card {
+    margin-bottom: 20px;
+  }
+
+  .movie-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+
+  }
+  .card{
+    margin-bottom: 50px;
+    margin-top: 50px;   
+    border-style: solid;
+    border-color: rgb(229, 107, 26);
+    border-width: 4px;
+  }
+  .card-body{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+  }

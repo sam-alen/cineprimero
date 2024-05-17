@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cineplus</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+  </style>
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#" >Cineplus</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cartelera.html">Cartelera</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="horarios.html">Horarios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="dulceria.html">Dulcería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carrusel de películas nuevas -->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./src/images/carrousel 1.jpg" class="d-block w-100" alt="Película 1">
+      </div>
+      <div class="carousel-item">
+        <img src="./src/images/carousel 2.jpg" class="d-block w-100" alt="Película 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./src/images/carousel 3.png" class="d-block w-100" alt="Película 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+  <!-- Contenido principal -->
+  <div class="container mt-5">
+    <h2>Próximas películas</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card movie-card">
+          <img src="./src/images/poster1.jpg"  class="card-img-top" alt="Película 1">
+          <div class="card-body">
+            <h5 class="card-title">Mi villano favorito 4</h5>
+            <p class="card-text">Gru, Lucy, Margo, Edith y Agnes le dan la bienvenida a un nuevo miembro a la familia, Gru Jr., quien está decidido a atormentar a su papá. Gru se enfrenta a un nuevo némesis llamado Maxime Le Mal y su novia Valentina, y la familia se ve obligada a huir.</p>
+            <a href="https://www.youtube.com/watch?v=I0_qFoptZ4Y" class="btn btn-primary" >Más información</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card movie-card">
+          <img src="./src/images/poster2.jpg"  class="card-img-top" alt="Película 2">
+          <div class="card-body">
+            <h5 class="card-title">Planeta de los simios</h5>
+            <p class="card-text">El director Wes Ball le da nueva vida a la épica franquicia global situada varias generaciones en el futuro tras el reinado de César, en el que los simios son la especie dominante que vive en armonía y los humanos han quedado reducidos a vivir en las sombras. Mientras un nuevo y tiránico líder simio construye su imperio, un joven simio emprende un viaje desgarrador que le llevará a cuestionarse todo lo que sabe sobre el pasado y a tomar decisiones que definirán el futuro de simios y humanos por igual.</p>
+            <a href="https://www.youtube.com/watch?v=raYE6Ild7a4" class="btn btn-primary">Más información</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card movie-card">
+          <img src="./src/images/poster3.jpg"  class="card-img-top" alt="Película 3">
+          <div class="card-body">
+            <h5 class="card-title">Spy x Family Code: White</h5>
+            <p class="card-text">Él es un espía. Ella es una asesina. Juntos, Loid y Yor ocultan sus dobles vidas mientras fingen ser la familia perfecta. Sin embargo, su hija adoptiva, Anya, que es telépata, conoce los emocionantes secretos de ambos sin que lo sospechen. Bajo la excusa de llevar a su familia a una escapada invernal, los intentos de Loid por avanzar en su misión en curso, Operation Strix, se complican cuando Anya se involucra por error, desencadenando acontecimientos ¡que amenazan la paz mundial!.</p>
+            <a href="https://www.youtube.com/watch?v=L--bwy3miw4" class="btn btn-primary">Más información</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pie de página -->
+  <footer class="bg-dark text-light text-center py-4 mt-5">
+    <div class="container">
+      <p>&copy; 2024 Cineplus</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle con Popper.js y Bootstrap Icons (Requerido para el funcionamiento de los componentes de Bootstrap) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
